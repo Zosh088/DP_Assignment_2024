@@ -6,6 +6,7 @@ This project is a console application designed to simulate a vehicle assembly li
 Vehicle Types: Motor Bikes, Light Vehicles, Heavy Vehicles
 ### Capabilities:
 Carrier Capacity, Engine Size, Towing Capability, Optional Features: Sound System, WiFi, Camera
+
 Technician Management: Technicians for different vehicle types, with specific hourly rates for adding features
 # Design Patterns Used
 ## Strategy Pattern
