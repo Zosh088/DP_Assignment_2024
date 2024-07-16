@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Camera.cs" />
     <Compile Include="EngineCapability.cs" />
     <Compile Include="ICapability.cs" />
@@ -57,6 +58,10 @@
     <Compile Include="TowingCapability.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="WiFi.cs" />
+=======
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+>>>>>>> d1a8c5b045b6d1009356a661b272a9b0cbaa8476
 =======
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
