@@ -5,45 +5,30 @@ This project is a console application designed to simulate a vehicle assembly li
 ### Features
 Vehicle Types: Motor Bikes, Light Vehicles, Heavy Vehicles
 ### Capabilities:
-Carrier Capacity
-Engine Size
-Towing Capability
-Optional Features:
-Sound System
-WiFi
-Camera
+Carrier Capacity, Engine Size, Towing Capability, Optional Features: Sound System, WiFi, Camera
 Technician Management: Technicians for different vehicle types, with specific hourly rates for adding features
 # Design Patterns Used
 ## Strategy Pattern
 
-Encapsulates vehicle capabilities (carrier, engine, towing) as separate strategies.
-Allows dynamic setting of capabilities without modifying the vehicle class.
+Encapsulates vehicle capabilities (carrier, engine, towing) as separate strategies. Allows dynamic setting of capabilities without modifying the vehicle class.
 ## Observer Pattern
 
-Enables real-time updates to technicians about vehicle state changes.
-Maintains loose coupling between the vehicle and technician classes.
+Enables real-time updates to technicians about vehicle state changes. Maintains loose coupling between the vehicle and technician classes.
 ## Decorator Pattern
 
-Facilitates dynamic addition of optional features (sound system, WiFi, camera) to vehicles.
-Adheres to the Single Responsibility Principle by keeping each feature in its own class.
+Facilitates dynamic addition of optional features (sound system, WiFi, camera) to vehicles. Adheres to the Single Responsibility Principle by keeping each feature in its own class.
 # Class Diagram
 
-## Classes
+## Classes:
 ### Vehicle
 
-Manages capabilities, optional features, and technicians.
-Notifies technicians of state changes.
+Manages capabilities, optional features, and technicians. Notifies technicians of state changes.
 ### Technician
 
-Observes vehicle state changes.
-Calculates cost for adding features based on hourly rates.
+Observes vehicle state changes. Calculates cost for adding features based on hourly rates.
 ### Capabilities
 
-CarrierCapability
-EngineCapability
-TowingCapability
+CarrierCapability, EngineCapability, TowingCapability
 ### Optional Features
 
-SoundSystem
-WiFi
-Camera
+SoundSystem, WiFi, Camera
