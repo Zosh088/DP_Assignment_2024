@@ -33,3 +33,9 @@ CarrierCapability, EngineCapability, TowingCapability
 ### Optional Features
 
 SoundSystem, WiFi, Camera
+# Contact
+For any questions or suggestions, please feel free to contact:
+
+Name: Zenande Mjali
+
+Email: mjalizenande06@gmail.com
