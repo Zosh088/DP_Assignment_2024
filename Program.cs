@@ -146,7 +146,7 @@ namespace DP_Assignment_2024
             {
                 Console.WriteLine("Invalid input. Please enter a number.");
                 return;
-            }
+        }
 
             switch (choice)
             {
@@ -160,7 +160,7 @@ namespace DP_Assignment_2024
                     Console.WriteLine("Invalid choice. Using default towing capabilities.");
                     vehicle.SetCapability(new TowingCapability("Can Tow"));
                     break;
-            }
+    }
             Console.WriteLine("---------------------------------------------------");
             SelectOptionalFeatures(vehicle);
 
@@ -168,7 +168,7 @@ namespace DP_Assignment_2024
             Console.WriteLine("Vehicle Description: " + vehicle.Description);
             Console.WriteLine("Total Cost: " + (vehicle.CalculateTotalCost() + 0)); // Adding zero for formatting
             Console.WriteLine("===================================================");
-        }
+}
 
         static void SelectOptionalFeatures(Vehicle vehicle)
         {
