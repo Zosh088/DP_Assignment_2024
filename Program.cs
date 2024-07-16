@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-<<<<<<< HEAD
 using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
-=======
->>>>>>> d1a8c5b045b6d1009356a661b272a9b0cbaa8476
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +12,6 @@ namespace DP_Assignment_2024
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
             // Create technicians
             var motorBikeTechnician = new Technician("MotorBikeTech", 100);
             var lightMotorTechnician = new Technician("LightMotorTech", 120);
@@ -214,3 +210,4 @@ namespace DP_Assignment_2024
         }
     }
 }
+
