@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-<<<<<<< HEAD
+>>>>>>> HEAD
+>>>>>>> HEAD
     <Compile Include="Camera.cs" />
     <Compile Include="EngineCapability.cs" />
     <Compile Include="ICapability.cs" />
